@@ -6,17 +6,30 @@ header h1{
 
 h2{
     text-align:center;
-    font-family: 'plus jakarta sans', sans-serif;
+    font-family: 'Outfit', ;
     font-weight: 600;
+    background-color: #FFFFFF;
+    font-size: 40px;    
+   
 }
+
+.container {
+    background-color: #FFFFFF;
+    border-radius:20px;
+    padding: 60px;  
+    max-width: 950px;
+   align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}   
 
 p{
     text-align:center;
     font-family: 'plus jakarta sans', sans-serif;
     font-weight: 400;
-}
+  }
 
 .restricted-text{
-    max-width: 600px;
+    max-width:600px;
     margin: 0 auto;
 }
