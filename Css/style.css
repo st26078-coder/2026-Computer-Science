@@ -1,7 +1,17 @@
 header h1{
     text-align:center;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
 }
 
 h2{
     text-align:center;
+    font-family: 'plus jakarta sans', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    text-align:center;
+    font-family: 'plus jakarta sans', sans-serif;
+    font-weight: 400;
 }
