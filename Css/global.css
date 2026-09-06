@@ -1,0 +1,22 @@
+body{
+    background-color: #f4f4f6;
+}
+
+header{
+    background-color:#FFFFFF
+}
+header h1{
+        font-size: 86px;
+}
+
+@media screen and (max-width: 992px){
+    header h1{
+        font-size: 50px;
+    }
+}   
+
+@media screen and (max-width: 600px){
+    header h1{
+        font-size: 30px;
+    }
+}   
