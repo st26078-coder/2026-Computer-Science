@@ -1,9 +1,12 @@
+body{
+    background-color: #f4f4f6;
+}
+
 header{
-    background-color: red;
+    background-color:#FFFFFF
 }
 header h1{
-    color: yellow;
-    font-size: 86px;
+        font-size: 86px;
 }
 
 @media screen and (max-width: 992px){
