@@ -37,6 +37,7 @@ header{
     color: #1F2421;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .nav-links a:hover,
@@ -46,6 +47,15 @@ header{
 
 header h1{
         font-size: 50px;
+        margin:0;
+        text-align:center;
+}
+
+header h1 a{
+    color: #1F2421;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700; 
+    text-decoration: none;
 }
 
 
