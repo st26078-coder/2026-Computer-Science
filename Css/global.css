@@ -33,6 +33,17 @@ header{
     padding-left: 40px;
 }
 
+.nav-links a{
+    color: #1F2421;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+}
+
+.nav-links a:hover,
+.nav-links a.active{
+    color: #C86D51;
+}
+
 header h1{
         font-size: 50px;
 }
