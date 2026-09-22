@@ -7,11 +7,15 @@ new Swiper('#swiper-1',{
     },
     autoplay:{
         delay: 5000,
-        disableOnInteraction: false
+        disableOnInteraction: true
     },
     pagination:{
         el: "#swiper-1 .swiper-pagination",
         clickable: true
+    },
+    navigation:{
+        nextEl: "#swiper-1 .swiper-button-next",
+        prevEl: "#swiper-1 .swiper-button-prev"
     },
     loop: true
 });
