@@ -6,7 +6,7 @@ new Swiper('#swiper-1',{
         crossFade: true
     },
     autoplay:{
-        delay: 5000,
+        delay: 4500,
         disableOnInteraction: true
     },
     pagination:{
