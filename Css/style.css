@@ -59,3 +59,23 @@ p{
 #swiper-1 .swiper-pagination-bullet-active{
     background-color: #C86D51;
 }
+
+#swiper-1 .swiper-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#swiper-1 .swiper-text h3{
+    margin: 0;
+    font-size: 24px;
+}
+
+#swiper-1 .swiper-text p{
+    margin: 5px 0 0;
+    font-size: 16px;
+}
