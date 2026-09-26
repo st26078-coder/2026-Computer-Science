@@ -28,7 +28,7 @@ header{
     padding-right: 40px;
 }
 
-.nav-right.right{
+.nav-links.right{
     justify-content: flex-start;
     padding-left: 40px;
 }
