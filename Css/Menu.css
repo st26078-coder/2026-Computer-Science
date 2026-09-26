@@ -88,3 +88,20 @@
     margin-bottom: 14px;
 }
 
+.dish-desc{
+    font-family:'Plus Jarkata Sans', sans-serif;
+    color: #64748B;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+}
+
+.allergens {
+    background-color: #F4F4F6;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 18px;
+}
