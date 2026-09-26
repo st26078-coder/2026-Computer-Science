@@ -14,8 +14,8 @@ new Swiper('#swiper-1',{
         clickable: true
     },
     navigation:{
-        nextEl: "#swiper-1 .swiper-button-next",
-        prevEl: "#swiper-1 .swiper-button-prev"
+        nextEl: "#swiper-1 .next-btn",
+        prevEl: "#swiper-1 .prev-btn"
     },
     loop: true
 });

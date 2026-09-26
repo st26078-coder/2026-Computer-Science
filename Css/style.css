@@ -51,19 +51,52 @@ p{
     object-fit: cover;
 }
 
-#swiper-1 .swiper-button-prev,
-#swiper-1 .swiper-button-next{
-    color: #C86D51;
+.swiper-controls{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.btn-swiper{
+    background-color: #FFFFFF;
+    color: #1F2421;
+    border: 1px solid #E2E8F0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 20;
+}
+
+.btn-swiper:hover{
+    background-color: #C86D51;
+    color: #FFFFFF;
+    border-color: #C86D51;
 }
 
 #swiper-1 .swiper-pagination-bullet-active{
     background-color: #C86D51;
 }
 
+.swiper-controls .swiper-pagination{
+    position: static;
+    width: auto;
+}
+
 #swiper-1 .swiper-text{
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 80px;
+    left: 30px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
