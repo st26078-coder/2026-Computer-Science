@@ -36,7 +36,21 @@ referrerpolicy="no-referrer"/>
             <h2>Our Dim Sum Menu</h2>
             <p> Our handcrafted Dim Sum dishes crafted using tranditional Cantonese recipes and fresh New Zealand ingredients.</p>
         </div>
+        <div class="view-toggle-container">
+            <span class="view-toggle-label">Menu Layout: </span>
+            <div class="view-toggle-buttons">
+                <button class="toggle-btn active" id="btn-swiper" onclick="switchView('swiper')">Swiper View</button>
+                <button class="toggle-btn" id="btn-grid" onclick="switchView('grid')">Grid View</button>
+            </div>
+        </div>
+
+
+
+
+
+
         <!-- Menu Swiper-->
+    <div id="swiper-container">
         <div class="swiper" id="menu-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -216,6 +230,8 @@ referrerpolicy="no-referrer"/>
                 <button class="btn-menu-nav menu-next">Next Dish</button>
             </div>
         </div>
+    </div>
+    <!-- Grid View -->
     </main>
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script src="js/menu-swiper.js"></script>
