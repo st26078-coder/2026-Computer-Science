@@ -27,3 +27,35 @@
     margin-bottom: 12px;
 }
 
+.contact-card h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0 14px 0;
+}
+
+.intro{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #64748B;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.contact-info{
+    background-color: #F4F4F6;
+    padding: 24px;
+    border-radius: 12px;
+    margin: 24px 0;
+    text-align: left;
+}
+
+.contact-info p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.contact-info strong{
+    color:#C86D51
+}
