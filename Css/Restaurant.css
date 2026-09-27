@@ -28,3 +28,59 @@
     justify-content: center;
 }
 
+.section-badge{
+    display:inline-block;
+    background-color: #FBEFEA;
+    color: #c86d51;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+
+.restaurant-info h2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 14px 0;
+}
+
+.restaurant-desc{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #64748B;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+.info-details p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-maps{
+    display:inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 1px solid #CBD5E1;
+    color: #1F2421;
+    text-decoration:none;
+    border-radius: 8px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: fit-content;
+    transition: all 0.2 ease;
+}
+
+.btn-maps:hover{
+    border-color: #c86d51;
+    color: #c86d51;
+}
