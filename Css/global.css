@@ -66,6 +66,19 @@ header h1 a{
 @media screen and (max-width: 992px){
     header h1{
         font-size: 36px;
+        white-space:nowrap;
+    }
+
+    .nav-links{
+        gap: 16px;
+    }
+
+    .nav-links.left{
+        padding-right: 15px;
+    }
+
+    .nav-links.right{
+        padding-left: 15px;
     }
 }   
 
