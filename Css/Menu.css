@@ -269,3 +269,23 @@
     border-radius: 8px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 900px) {
+    .menu-grid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .menu-item-layout{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .menu-item-photo{
+        height: 280px;
+    }
+    
+    .menu-item-description{
+        padding:26px;
+    }
+}
