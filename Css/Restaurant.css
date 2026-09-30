@@ -84,3 +84,47 @@
     border-color: #c86d51;
     color: #c86d51;
 }
+
+
+@media screen and (max-width:992px){
+    .Restaurant{
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 30px;
+    }
+
+    .restaurant-image{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .restaurant-container{
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    .Restaurant{
+        padding: 20px 16px;
+        gap: 20px;
+        border-radius: 16px;
+    }
+
+    .restaurant-image{
+        height: 220px;
+    }
+
+    .restaurant-info h2{
+        font-size: 24px;
+    }
+
+    .restaurant-desc{
+        font-size: 14px;
+    }
+
+    .btn-maps{
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+}
