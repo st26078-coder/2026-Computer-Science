@@ -270,7 +270,7 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
     .menu-grid{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -287,5 +287,48 @@
     
     .menu-item-description{
         padding:26px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .menu-container{
+        padding: 0 12px;
+        margin: 20px auto;
+    }
+
+    .menu-header h2{
+        font-size: 26px;
+    }
+
+    .menu-header p{
+        font-size: 14px;
+    }
+
+    .view-toggle-container{
+        width: 100%;
+        padding: 10px 14px;
+        margin-bottom: 20px;
+    }
+
+    .toggle-btn{
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .menu-item-photo{
+        height: 220px;
+    }
+
+    .menu-item-description{
+        padding: 18px;
+    }
+
+    .menu-item-description h3{
+        font-size: 22px;
+    }
+
+    .menu-grid{
+        grid-template-columns: 1fr;
+        gap:16px;
     }
 }
