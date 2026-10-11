@@ -77,7 +77,7 @@
     font-weight: 600;
     font-size: 14px;
     width: fit-content;
-    transition: all 0.2 ease;
+    transition: all 0.2s ease;
 }
 
 .btn-maps:hover{
